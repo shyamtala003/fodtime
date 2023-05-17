@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- css for hamberger icon -->
+    <link rel="stylesheet" href="./hamberger.css" />
+
+    <!-- javascript -->
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="left_content">
+        <span class="logo">Food<span>Time</span></span>
+      </div>
+      <div class="right_content">
+        <ul class="link_wrapper">
+          <li class="link"><a href="/">Home</a></li>
+          <li class="link"><a href="/">Blog</a></li>
+          <li class="link"><a href="/">About us</a></li>
+          <li class="link" id="language_list">
+            <a href="#" id="sub_menu_toggler"
+              >EN
+              <img src="./assets/downarrow.png" alt="arrow" id="down_arrow" />
+            </a>
+            <ul class="sub_list" id="sub_list">
+              <li class="sub_link">IN</li>
+              <li class="sub_link">US</li>
+              <li class="sub_link">CN</li>
+              <li class="sub_link">GN</li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="button_group">
+          <button>Login</button>
+          <button><img src="./assets/cart.png" alt="" /></button>
+        </div>
+      </div>
+
+      <!-- code for mov=bile menu -->
+      <button
+        class="hamburger hamburger--collapse"
+        id="menu_icon"
+        type="button"
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </nav>
+
+    <main class="hero_section">
+      <div class="text_wrapper">
+        <h1 class="heading_text">
+          Order food online from your favourite local restaurants.
+        </h1>
+        <p class="description">Freshly made food delivered to your door.</p>
+        <div class="input_box">
+          <div class="circle"></div>
+          <input
+            type="text"
+            name=""
+            class="search"
+            placeholder="Enter your location"
+            id=""
+          />
+          <button class="search_btn">
+            <img src="./assets/searchIcon.png" alt="" /><span class="btn_text"
+              >Search</span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="image_wrapper">
+        <img src="./assets/127.0.0.1_5500_.png" alt="" class="center_image" />
+        <div class="archivment_tag">
+          <h1 class="text"><img src="./assets/varified.png" alt="" />200k+</h1>
+          <p class="small_text">People Delivered</p>
+        </div>
+      </div>
+
+      <!-- fixed hero section images -->
+      <img src="./assets/blury_leaf.png" class="fixed_image_1" alt="" />
+      <img src="./assets/blury_leaf2.png" class="fixed_image_2" alt="" />
+    </main>
+
+    <section class="explore">
+      <div class="txt_wrapper">
+        <h1 class="head">Explore your favourite city’s food.</h1>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh
+          tristique. Non ligula tristique ut ut libero sit convallis maecenas.
+          At egestas auctor porta mattis.
+        </p>
+        <button class="btn_primary">
+          <span>Explore</span>
+          <img src="./assets/arrow.png" alt="" />
+        </button>
+      </div>
+      <div class="img_wrapper">
+        <img src="./assets/cyclist.png" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
